@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qingchejun.github.io</id>
-    <title>摸鱼基地</title>
-    <updated>2020-04-02T13:38:42.016Z</updated>
+    <title>青澈君</title>
+    <updated>2020-04-02T13:39:35.316Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qingchejun.github.io"/>
     <link rel="self" href="https://qingchejun.github.io/atom.xml"/>
     <subtitle>聊摸鱼、副业、挣钱那些事儿！</subtitle>
     <logo>https://qingchejun.github.io/images/avatar.png</logo>
     <icon>https://qingchejun.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 摸鱼基地</rights>
+    <rights>All rights reserved 2020, 青澈君</rights>
 </feed>
