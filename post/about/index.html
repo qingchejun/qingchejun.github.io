@@ -8,15 +8,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://qingchejun.github.io/favicon.ico?v=1585831595844">
+<link rel="shortcut icon" href="https://qingchejun.github.io/favicon.ico?v=1585834716839">
 <link rel="stylesheet" href="https://qingchejun.github.io/styles/main.css">
 
-
-  
-    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
-  
-
-  
 
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -41,7 +35,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://qingchejun.github.io">
-        <img src="https://qingchejun.github.io/images/avatar.png?v=1585831595844" class="site-logo">
+        <img src="https://qingchejun.github.io/images/avatar.png?v=1585834716839" class="site-logo">
         <h1 class="site-title">摸鱼基地</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -94,7 +88,7 @@
       聊摸鱼、副业、挣钱那些事儿！
     </div>
     <div class="site-footer">
-      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">青澈君</a> | <a class="rss" href="https://qingchejun.github.io/atom.xml" target="_blank">RSS</a>
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://qingchejun.github.io/atom.xml" target="_blank">RSS</a>
     </div>
   </div>
 </div>
@@ -120,12 +114,6 @@
             
 
             
-              
-                <div id="gitalk-container" data-aos="fade-in"></div>
-              
-
-              
-            
 
           </div>
 
@@ -148,29 +136,6 @@ var app = new Vue({
 </script>
 
 
-
-
-
-  
-    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-    <script>
-
-      var gitalk = new Gitalk({
-        clientID: '2fa9a7649dfb2a9144d8',
-        clientSecret: '271420cf9e89c11a1fee0350af040cfa99501616',
-        repo: 'comment',
-        owner: 'qingchejun',
-        admin: ['qingchejun'],
-        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
-        distractionFreeMode: false  // Facebook-like distraction free mode
-      })
-
-      gitalk.render('gitalk-container')
-
-    </script>
-  
-
-  
 
 
 
